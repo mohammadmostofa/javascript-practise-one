@@ -663,15 +663,28 @@
 
       //math-02
 
-      for(let i = 10 ; i > 0; i-- )
-      {
-        console.log(i) //count number 10 to 1 and end
-      }
+      // for(let i = 10 ; i > 0; i-- )
+      // {
+      //   console.log(i) //count number 10 to 1 and end
+      // }
 
-      console.log('Happy new year') // end er pre bairer console kaj korbe
+      // console.log('Happy new year') // end er pre bairer console kaj korbe
       
+    
+      //for loop..... math-03......continue = display none---(continue je number
+      //                                        ta hobe ta ar dekha jabe na)
 
+      for(let i = 0; i <=20; i++){
+
+        if( i == 13){
+              continue; //13 vanish hoye jabe
+        }
+
+        console.log(i)
+      }
    
+
+      
 
 
 

@@ -617,30 +617,30 @@
       //👉 কারণ condition loop এর শেষে চেক হয়, শুরুতে না।
       //do...while loop math-02
 
-      let loggedIn = true; //false ai hobe kintu 
+      //let loggedIn = true; //false ai hobe kintu 
                            // do..while er ketre false true jeai
                            //  howk na keno ekbar loop cholbe
-      let userName;
-      let passWord;
+     // let userName;
+      //let passWord;
 
      
-    do {
-        userName = window.prompt('enter your userName');
-        passWord = window.prompt('enter your password');
+    // do {
+    //     userName = window.prompt('enter your userName');
+    //     passWord = window.prompt('enter your password');
 
-        if(userName === "myUserName" && passWord === "myPassword") 
-          //ami name o password save korechi aigula diye login korte hobe
-        {
-          loggedIn = true; // aikane tambe 
+    //     if(userName === "myUserName" && passWord === "myPassword") 
+           //ami name o password save korechi aigula diye login korte hobe
+    //     {
+    //       loggedIn = true; // aikane tambe 
 
-          console.log('you are loggedIn!')
-        }
+    //       console.log('you are loggedIn!')
+    //     }
 
-        else{
-          console.log('invalid cradentions!Please try again')
-        }
+    //     else{
+    //       console.log('invalid cradentions!Please try again')
+    //     }
 
-       }  while(!loggedIn ) // যতক্ষণ পর্যন্ত loggedIn false থাকবে, লুপটি চলবে
+    //    }  while(!loggedIn ) // যতক্ষণ পর্যন্ত loggedIn false থাকবে, লুপটি চলবে
 
       // দুটো লুপের কাজ প্রায় একই,
       //শুধু do...while একবার অতিরিক্ত execute হয়, 
@@ -649,9 +649,19 @@
       //tai logged ye true(aikane false hbe) deoya sorteo ekbar loop choleche
 
 
+      
+      //for loop = repeat some code a limited amount of time
+      //         =  কোনো কোড নির্দিষ্ট সংখ্যক বার চালানো
 
+      //math-01
 
+      for(let i = 0  ; i <=30;  i+=1)//i+=aikane ja deoya hobe ta 
+      //                               sorte deoaya numbe yer songge gun hobe
+      {
+        console.log(i);
+      }
 
+      
    
 
 

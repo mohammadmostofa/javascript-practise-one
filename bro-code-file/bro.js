@@ -282,83 +282,83 @@
 
 //discount dile kibabe tar setup korbo ternery system diye
 
- let purcheaseAmount = 10;
- let discount = purcheaseAmount >= 100 ? 10 : 0;
- console.log(`your total $${purcheaseAmount - purcheaseAmount * (discount / 100)}`)
+//  let purcheaseAmount = 10;
+//  let discount = purcheaseAmount >= 100 ? 10 : 0;
+//  console.log(`your total $${purcheaseAmount - purcheaseAmount * (discount / 100)}`)
 
 
 // Switch = can be an efficient replecement to many if else statements
 
-let day = 10;
+// let day = 10;
 
-switch (day) {
+// switch (day) {
 
-  case 1:
-    console.log(`its Monday`);
-    break;
+//   case 1:
+//     console.log(`its Monday`);
+//     break;
 
-  case 2:
-    console.log(`its Tuesday`);
-    break;
+//   case 2:
+//     console.log(`its Tuesday`);
+//     break;
 
-  case 3:
-    console.log(`its Wednesday`);
-    break;
+//   case 3:
+//     console.log(`its Wednesday`);
+//     break;
 
-  case 4:
-    console.log(`its Thursday`);
-    break;
+//   case 4:
+//     console.log(`its Thursday`);
+//     break;
 
-  case 5:
-    console.log(`its Friday`);
-    break;
+//   case 5:
+//     console.log(`its Friday`);
+//     break;
 
-  case 6:
-    console.log(`its Satarday`);
-    break;
+//   case 6:
+//     console.log(`its Satarday`);
+//     break;
 
-  case 7:
-    console.log(`It is Sunday`);
-    break;
+//   case 7:
+//     console.log(`It is Sunday`);
+//     break;
 
-  default:
-    console.log(`${day} is NOT a day`)
+//   default:
+//     console.log(`${day} is NOT a day`)
 
-}
+// }
 
 //testscore
 
-let testScore = 80;
-let letterGrade;
+// let testScore = 80;
+// let letterGrade;
 
-switch (true) {
-  case testScore >= 90:
-    letterGrade = "A";
-    break;
+// switch (true) {
+//   case testScore >= 90:
+//     letterGrade = "A";
+//     break;
 
-  case testScore >= 80:
-    letterGrade = "B";
-    break;
+//   case testScore >= 80:
+//     letterGrade = "B";
+//     break;
 
 
-  case testScore >= 70:
-    letterGrade = "C";
-    break;
+//   case testScore >= 70:
+//     letterGrade = "C";
+//     break;
 
-  case testScore >= 60:
-    letterGrade = "D";
-    break;
+//   case testScore >= 60:
+//     letterGrade = "D";
+//     break;
 
-  case testScore >= 30:
-    letterGrade = "E"
-    break;
+//   case testScore >= 30:
+//     letterGrade = "E"
+//     break;
 
-  default:
-    letterGrade = " You have no score"
-    break;
-}
+//   default:
+//     letterGrade = " You have no score"
+//     break;
+// }
 
-console.log(letterGrade);
+// console.log(letterGrade);
 
 
 
@@ -535,8 +535,34 @@ console.log(letterGrade);
     //   console.log('its Not PI')
     // }
 
+    
+    
+    // const PI = 3.14;
+    // if(PI !== 3.14) // exclamatory== pi ki point er soman na =soman tai else hoice
+    // {
+    //   console.log('Its NOT PI')
+    // }
+
+    // else{
+    //   console.log('Its  PI')
+    // }
 
 
+    // while Loop = Repeat some code with some condition is true
+
+    let userName = "";
+
+     while (userName === "") //jotokkon porjonto sorto puron na hobe totokkon chobe
+      {
+        //jotokkon porjonto name likbo na totokkon window close hobe na
+      userName = window.prompt('enter your name') //uporer sorto ses hobe name likar maddome
+    }
+
+    console.log(`Hello ${userName}`) //$ use korle `` chinno ti dite hobe 
+    //console ye hello + userName hobe je name window te promt kora hobe
+
+    
+   
 
 
 

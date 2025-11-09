@@ -576,16 +576,41 @@
 
       // convert sort 
 
-      let userName;
+      // let userName;
 
-      while(userName = "" || userName == null)
+      // while(userName = "" || userName == null)
+      // {
+      //   userName = window.prompt('enter your name')
+      // }
+
+      // console.log(`Hello ${userName}`);
+
+
+      //while loop math -02 
+
+      let loggedIn = false;
+      let userName;
+      let passWord;
+
+      while(!loggedIn ) // যতক্ষণ পর্যন্ত loggedIn false থাকবে, লুপটি চলবে
       {
-        userName = window.prompt('enter your name')
+        userName = window.prompt('enter your userName');
+        passWord = window.prompt('enter your password');
+
+        if(userName === "myUserName" && passWord === "myPassword") 
+          //ami name o password save korechi aigula diye login korte hobe
+        {
+          loggedIn = true; // aikane tambe 
+
+          console.log('you are loggedIn!')
+        }
+
+        else{
+          console.log('invalid cradentions!Please try again')
+        }
+
       }
 
-      console.log(`Hello ${userName}`);
-
-      
 
 
 

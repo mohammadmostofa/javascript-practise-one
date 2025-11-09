@@ -1,0 +1,43 @@
+Dom = documentation object model
+
+1.select html element using Dom
+
+1.getElementById();
+2.getElementsByClassName(); //plural
+3.getElementsByName(); //plural
+4.document.getElementsByTagName(); //plural
+5.querySelector();
+6.querySelectorAll();
+
+onclick event
+
+1.process-one (inline)
+<button onclick="alert ('hi, iam golam mostofa')">onclick event</button>
+
+2.process-two-( extarnel )
+
+  <button onclick="clickMe()">click Me</button>
+
+  function clickMe (){
+    document.write("hi, how are you ? ")
+  }
+
+  when i click click me button then will see hi, how are yor ?
+
+  to show time of a paragraph tag 
+
+  
+
+child element travesing..traveling.....
+
+1 first child element 
+how to visit first child element visit
+process start..
+
+protome parentdiv ke ekta variable er bitore rakbo
+pore console.log () er bitore parentdiv.firstElementChild likbo tahole show korbe
+
+abr sobgulo element eksongge dekar jonno parentdiv.children dile show korbe 
+
+........sibling element hw to catch..............
+sibling bolte child element er songge je element gulo take tader ke bujano hoyeche

@@ -1,0 +1,137 @@
+
+
+body{
+  max-width: max-content;
+  margin: 0 auto;
+
+}
+
+  /* COUNTER PROJECT  */
+
+.maindiv{
+
+  padding: 30px 20px;
+  border: 1px solid green;
+  margin: 30px 0px;
+
+}
+
+#countLabel{
+  
+  display: block;
+  text-align: center;
+  font-size: 8em;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#btnContainer{
+  text-align: center;
+
+}
+
+.buttons{
+  padding: 10px 20px ;
+  font-size: 1.5em;
+  color: white;
+  background-color: rgb(154 148 234);
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  transition:background-color 0.25s;
+}
+
+.buttons:hover{
+
+  background-color:rgb(0, 0, 230) ;
+
+}
+
+
+ /* RANDOM NUMBER GENERATE  */
+
+ .main-container{
+  
+  margin: 100px 0px;
+  border: 1px solid orange;
+  
+
+}
+
+.labelcon{
+  display: flex;
+  justify-content: center;
+}
+
+.labels{
+  font-size: 8em;
+  padding: 10px 4px;
+}
+
+.btnCon{
+
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+
+}
+
+#mybtn{
+  font-size: 2em;
+  padding: 10px 50px;
+  cursor: pointer;
+ border: none;
+ border-radius: 10px;
+ background-color: green;
+ color: white;
+}
+
+#mybtn:hover{
+  background-color: rgb(59, 0, 59);
+  transition: .4s;
+  color: aliceblue;
+}
+
+ 
+
+/* TEXTBOX BUTTON */
+
+.maincon{
+  padding: 50px 20px;
+  border: 1px solid black;
+  margin: 30px 0px;
+}
+
+.text{
+  font-size: 3em;
+  color:black;
+  font-size: bold;
+  margin: 10px 0px;
+}
+
+#myText{
+margin: 10px 0px;
+border: 2px solid black;
+}
+
+#mySubmit{
+  background-color: whitesmoke;
+  padding: 8px 16px;
+  border: 0.5px solid black;
+  font-size: 16px;
+}
+
+
+
+/*  CHECKBOX */
+
+.maDiv{
+
+
+  padding: 40px 20px;
+  margin: 30px 0px;
+  background-color: rgb(0, 228, 228);
+  border-radius: 10px;
+  border: 2px solid rgb(177, 255, 8);
+
+}

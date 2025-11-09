@@ -655,13 +655,22 @@
 
       //math-01
 
-      for(let i = 0  ; i <=30;  i+=1)//i+=aikane ja deoya hobe ta 
+     // for(let i = 0  ; i <=30;  i+=1)//i+=aikane ja deoya hobe ta 
       //                               sorte deoaya numbe yer songge gun hobe
+      // {
+      //   console.log(i);
+      // }
+
+      //math-02
+
+      for(let i = 10 ; i > 0; i-- )
       {
-        console.log(i);
+        console.log(i) //count number 10 to 1 and end
       }
 
+      console.log('Happy new year') // end er pre bairer console kaj korbe
       
+
    
 
 

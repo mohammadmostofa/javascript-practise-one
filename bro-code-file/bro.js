@@ -674,13 +674,27 @@
       //for loop..... math-03......continue = display none---(continue je number
       //                                        ta hobe ta ar dekha jabe na)
 
-      for(let i = 0; i <=20; i++){
+      // for(let i = 0; i <=20; i++){
 
-        if( i == 13){
-              continue; //13 vanish hoye jabe
+      //   if( i == 13){
+      //         continue; //13 vanish hoye jabe
+      //   }
+
+      //   console.log(i)
+      // }
+
+      
+
+      //for loop......math-04....Break = stop loop
+      
+      for(let i = 0 ; i <= 10; i ++) {
+
+        if ( i == 5){
+           break;//0---4 = 5 > stop
         }
 
-        console.log(i)
+        console.log(i);
+
       }
    
 

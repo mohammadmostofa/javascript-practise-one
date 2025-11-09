@@ -550,18 +550,45 @@
 
     // while Loop = Repeat some code with some condition is true
 
-    let userName = "";
+    //let userName = "";
 
-     while (userName === "") //jotokkon porjonto sorto puron na hobe totokkon chobe
-      {
+    // while (userName === "" || userName == null) //jotokkon porjonto sorto puron na hobe totokkon chobe
+     // {
         //jotokkon porjonto name likbo na totokkon window close hobe na
-      userName = window.prompt('enter your name') //uporer sorto ses hobe name likar maddome
-    }
+     // userName = window.prompt('enter your name') //uporer sorto ses hobe name likar maddome
+//}
 
-    console.log(`Hello ${userName}`) //$ use korle `` chinno ti dite hobe 
+   // console.log(`Hello ${userName}`) //$ use korle `` chinno ti dite hobe 
     //console ye hello + userName hobe je name window te promt kora hobe
 
+
+    //do.......While loop math >
+
+    // let userName = "";
     
+    // do {
+    //   userName = window.prompt('enter your name');
+    // }
+
+    // while(userName == "" || userName == null)
+
+    //   console.log(`Hello ${userName}`);
+
+      // convert sort 
+
+      let userName;
+
+      while(userName = "" || userName == null)
+      {
+        userName = window.prompt('enter your name')
+      }
+
+      console.log(`Hello ${userName}`);
+
+      
+
+
+
    
 
 

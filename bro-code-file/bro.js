@@ -588,12 +588,43 @@
 
       //while loop math -02 
 
-      let loggedIn = false;
+      // let loggedIn = false;
+      // let userName;
+      // let passWord;
+
+      // while(!loggedIn ) // যতক্ষণ পর্যন্ত loggedIn false থাকবে, লুপটি চলবে
+      // {
+      //   userName = window.prompt('enter your userName');
+      //   passWord = window.prompt('enter your password');
+
+      //   if(userName === "myUserName" && passWord === "myPassword") 
+           //ami name o password save korechi aigula diye login korte hobe
+      //   {
+      //     loggedIn = true; // aikane tambe 
+
+      //     console.log('you are loggedIn!')
+      //   }
+
+      //   else{
+      //     console.log('invalid cradentions!Please try again')
+      //   }
+
+      // }
+
+      //while লুপ আগে condition দেখে তারপর চালায়।
+
+      //do...while লুপ একবার হলেও চলে, condition true বা false যাই হোক না কেন।
+      //👉 কারণ condition loop এর শেষে চেক হয়, শুরুতে না।
+      //do...while loop math-02
+
+      let loggedIn = true; //false ai hobe kintu 
+                           // do..while er ketre false true jeai
+                           //  howk na keno ekbar loop cholbe
       let userName;
       let passWord;
 
-      while(!loggedIn ) // যতক্ষণ পর্যন্ত loggedIn false থাকবে, লুপটি চলবে
-      {
+     
+    do {
         userName = window.prompt('enter your userName');
         passWord = window.prompt('enter your password');
 
@@ -609,7 +640,14 @@
           console.log('invalid cradentions!Please try again')
         }
 
-      }
+       }  while(!loggedIn ) // যতক্ষণ পর্যন্ত loggedIn false থাকবে, লুপটি চলবে
+
+      // দুটো লুপের কাজ প্রায় একই,
+      //শুধু do...while একবার অতিরিক্ত execute হয়, 
+      // তারপর condition দেখে আবার চালাবে কিনা ঠিক করে।
+
+      //tai logged ye true(aikane false hbe) deoya sorteo ekbar loop choleche
+
 
 
 

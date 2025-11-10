@@ -687,15 +687,18 @@
 
       //for loop......math-04....Break = stop loop
       
-      for(let i = 0 ; i <= 10; i ++) {
+      // for(let i = 0 ; i <= 10; i ++) {
 
-        if ( i == 5){
-           break;//0---4 = 5 > stop
-        }
+      //   if ( i == 5){
+      //      break;//0---4 = 5 > stop
+      //   }
 
-        console.log(i);
+      //   console.log(i);
 
-      }
+      // }
+
+
+      
    
 
       

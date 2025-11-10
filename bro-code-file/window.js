@@ -72,3 +72,67 @@
         //  username = username.trim().charAt().toUpperCase() +
         //  username.trim().slice(1).toLowerCase();
         //   console.log(username);
+
+
+
+
+        //CASING RANDE GAME
+
+
+const minNum = 50;
+const maxNum = 100;
+
+const answer = Math.floor(Math.random() * (maxNum - minNum + 1) + minNum);
+
+console.log(`(🤫 Secret Answer: ${answer})`);
+
+let attempts = 0; //kothobar songka neo hoice ta 
+let guess; //anumanik maan neoya
+let running = true ;
+
+// while loop start
+
+while(running)   {
+
+  guess = window.prompt(`Guess a number  ${minNum} and ${maxNum}`);
+  guess = Number(guess);
+  console.log(typeof guess,guess);
+
+  if( isNaN (guess) ){
+      
+    window.alert(`Please enter a valid number!`)
+  }
+
+  else if(guess < minNum  || guess > maxNum ) 
+    //if min greater than guess  of guess greater than max
+    {
+      window.alert(`Please enter a valid number!`)
+    }
+
+    else{
+
+    attempts++;//প্রতি বার ইউজার ইনপুট দিলে attempts এর মান 
+    //           ১ বাড়বে (মানে একবার চেষ্টা হয়েছে)।
+
+    if(guess < answer){
+      window.alert(`TO LOW, TRY AGAIN!`)
+    }
+
+   else if(guess > answer){
+      window.alert(`TO HIGH, TRY AGAIN!`)
+    }
+
+    else if (guess === answer) {
+
+        window.alert(`🎉 CORRECT! The answer was ${answer}. It took you ${attempts} attempts.`);
+       
+    }
+
+    running = false; 
+    }
+
+
+}
+
+
+

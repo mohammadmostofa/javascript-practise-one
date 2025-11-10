@@ -709,26 +709,49 @@
 //function er ketre jokon function er name dore daka hobe
 //  tokon er bitorer console.log() er bitorer ongsho output hobe
 
-  function happyBirthday(){
-    console.log('Happy Birthday to You!');// ; semicolon dite hobe
-    console.log('Happy Birthday to You!');
-    console.log('Happy Birthday to You!');
-    console.log('Happy Birthday to You!');
-    console.log('Happy Birthday to You!');
-    console.log('Happy Birthday to You!');
-    console.log('Happy Birthday to You!');
-    console.log('Happy Birthday to You!');
-  }
+  // function happyBirthday(){
+  //   console.log('Happy Birthday to You!');// ; semicolon dite hobe
+  //   console.log('Happy Birthday to You!');
+  //   console.log('Happy Birthday to You!');
+  //   console.log('Happy Birthday to You!');
+  //   console.log('Happy Birthday to You!');
+  //   console.log('Happy Birthday to You!');
+  //   console.log('Happy Birthday to You!');
+  //   console.log('Happy Birthday to You!');
+  // }
 
   //function er name happyBirthday> {} er bahire rakbo tokon bitorer  console.log() out put kaj korbe
   // happyBirthday();  function name first breacket semiculon dite hoi 'mustly'.
   
-  happyBirthday();// (1) jotobar ami call dibo totobar bitorer ongsho output hobe
-  happyBirthday(); // (2)
-  happyBirthday(); // (3)
-  happyBirthday(); // (4)
+  //happyBirthday();// (1) jotobar ami call dibo totobar bitorer ongsho output hobe
+  //happyBirthday(); // (2)
+  //happyBirthday(); // (3)
+  //happyBirthday(); // (4)
 
-      
+
+  // function math-two
+
+
+  function myBirthDay ( userName, age)//username,age is parameter 
+  
+  {
+
+    console.log(`Happy birthday ${userName}!`);
+    console.log(`you are ${age} year old!`);
+  
+  }
+
+  //call the function
+
+//ekoi variable name e jotobar ami value nibo totho bar ta sho korbe
+
+  myBirthDay( 'Golam Mostofa', 24 );//parameter value
+  
+  myBirthDay('sojib', 23);
+
+  myBirthDay('mustakim', 22);
+
+  myBirthDay('sopon', 24);
 
 
 

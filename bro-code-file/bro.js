@@ -699,7 +699,34 @@
 
 
       
-   
+      
+// function =  A section is resuable code.
+//             Declare code once,use it whenever you want,
+//             Call the function to excute that code. 
+
+
+
+//function er ketre jokon function er name dore daka hobe
+//  tokon er bitorer console.log() er bitorer ongsho output hobe
+
+  function happyBirthday(){
+    console.log('Happy Birthday to You!');// ; semicolon dite hobe
+    console.log('Happy Birthday to You!');
+    console.log('Happy Birthday to You!');
+    console.log('Happy Birthday to You!');
+    console.log('Happy Birthday to You!');
+    console.log('Happy Birthday to You!');
+    console.log('Happy Birthday to You!');
+    console.log('Happy Birthday to You!');
+  }
+
+  //function er name happyBirthday> {} er bahire rakbo tokon bitorer  console.log() out put kaj korbe
+  // happyBirthday();  function name first breacket semiculon dite hoi 'mustly'.
+  
+  happyBirthday();// (1) jotobar ami call dibo totobar bitorer ongsho output hobe
+  happyBirthday(); // (2)
+  happyBirthday(); // (3)
+  happyBirthday(); // (4)
 
       
 

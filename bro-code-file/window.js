@@ -75,64 +75,63 @@
 
 
 
+  //CASING RANDER GAME...................
 
-        //CASING RANDE GAME
 
+// const minNum = 50;
+// const maxNum = 100;
 
-const minNum = 50;
-const maxNum = 100;
+// const answer = Math.floor(Math.random() * (maxNum - minNum + 1) + minNum);
 
-const answer = Math.floor(Math.random() * (maxNum - minNum + 1) + minNum);
+// console.log(`(🤫 Secret Answer: ${answer})`);
 
-console.log(`(🤫 Secret Answer: ${answer})`);
+// let attempts = 0; //kothobar songka neo hoice ta 
+// let guess; //anumanik maan neoya
+// let running = true ;
 
-let attempts = 0; //kothobar songka neo hoice ta 
-let guess; //anumanik maan neoya
-let running = true ;
+ // while loop start
 
-// while loop start
+// while(running)   {
 
-while(running)   {
+//   guess = window.prompt(`Guess a number  ${minNum} and ${maxNum}`);
+//   guess = Number(guess);
+//   console.log(typeof guess,guess);
 
-  guess = window.prompt(`Guess a number  ${minNum} and ${maxNum}`);
-  guess = Number(guess);
-  console.log(typeof guess,guess);
-
-  if( isNaN (guess) ){
+//   if( isNaN (guess) ){
       
-    window.alert(`Please enter a valid number!`)
-  }
+//     window.alert(`Please enter a valid number!`)
+//   }
 
-  else if(guess < minNum  || guess > maxNum ) 
+//   else if(guess < minNum  || guess > maxNum ) 
     //if min greater than guess  of guess greater than max
-    {
-      window.alert(`Please enter a valid number!`)
-    }
+//     {
+//       window.alert(`Please enter a valid number!`)
+//     }
 
-    else{
+//     else{
 
-    attempts++;//প্রতি বার ইউজার ইনপুট দিলে attempts এর মান 
+//     attempts++;//প্রতি বার ইউজার ইনপুট দিলে attempts এর মান 
     //           ১ বাড়বে (মানে একবার চেষ্টা হয়েছে)।
 
-    if(guess < answer){
-      window.alert(`TO LOW, TRY AGAIN!`)
-    }
+//     if(guess < answer){
+//       window.alert(`TO LOW, TRY AGAIN!`)
+//     }
 
-   else if(guess > answer){
-      window.alert(`TO HIGH, TRY AGAIN!`)
-    }
+//    else if(guess > answer){
+//       window.alert(`TO HIGH, TRY AGAIN!`)
+//     }
 
-    else if (guess === answer) {
+//     else if (guess === answer) {
 
-        window.alert(`🎉 CORRECT! The answer was ${answer}. It took you ${attempts} attempts.`);
+//         window.alert(`🎉 CORRECT! The answer was ${answer}. It took you ${attempts} attempts.`);
        
-    }
+//     }
 
-    running = false; 
-    }
+//     running = false; 
+//     }
 
 
-}
+// }
 
 
 

@@ -995,19 +995,28 @@ function2();
 
 // Array with for Loop 
 
-let fruitsName = ['apple','banana','orange','cucumber','papaya','lychee']
+//let fruitsName = ['apple','banana','orange','cucumber','papaya','lychee']
 
-   console.log(fruitsName);
+  // console.log(fruitsName);
 
-   for (let i = 0 ; i < fruitsName.length; i++){
+  // for (let i = 0 ; i < fruitsName.length; i++){
 
-    console.log(i); // number count korbe jotokkon sorto puron hosche
-    console.log(fruitsName[i]); //0,1,2,3,4,5 babe count korbe kintu eketre 
+   // console.log(i); // number count korbe jotokkon sorto puron hosche
+   // console.log(fruitsName[i]); //0,1,2,3,4,5 babe count korbe kintu eketre 
     //                          fruitsName er bitorer gulo single babe bosbe
     //                           karon = fruitsName[i] count korte bola hoyeche
 
-   }
+   //}
 
+
+   //for loop + array and biyog(-)
+
+   let color = ['red','yello', 'orange', 'green','blue']
+
+   for( let i = color.length - 1;  i >= 0; i--){
+    console.log(i);//4,3,2,1,0
+    console.log(color[i]); //result show --right to left or ulta to baow
+   }
 
 
 

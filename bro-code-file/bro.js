@@ -1021,13 +1021,13 @@ function2();
 // for......of  its a simple formula to out list of array element
 
 
-let colors = ['red','yello', 'orange', 'green','blue']
+// let colors = ['red','yello', 'orange', 'green','blue']
 
-for( let color of colors){
+// for( let color of colors){
 
-  console.log(color)
+//   console.log(color)
 
-}
+// }
 
 //reverse () = ultano
 //sort() → অক্ষর অনুযায়ী (alphabetically) সাজায়
@@ -1036,9 +1036,33 @@ for( let color of colors){
 
 //reverse() → সাজানো list উল্টে 
 
- colors.sort().reverse();
- console.log(colors);
+ //colors.sort().reverse();
+ //console.log(colors);
  //['yello', 'red', 'orange', 'green', 'blue'] result 
+
+
+
+ //Spread (...) Operator = Allow and iterable such as and array or string 
+ //                  to be expended into separate(unpacks the element)
+ //                  স্প্রেড অপারেটর ... হল এমন একটা সিনট্যাক্স যা ইটারেবল (iterable)
+ //                  যেমন array বা string কে আলাদা আলাদা এলিমেন্টে "উন্মোচন"
+ //                  (expand/unpack) করতে ব্যবহার হয়।
+
+
+ //example
+
+ let numbers = [1,2,3,4,5];
+
+ let maximum = Math.max(numbers);//aikane kintu max number dekaini
+     maximum = Math.max(...numbers);//spread operator use korai kintu 
+     //                                max numbers ti asche output ye 
+let minmum = Math.min(...numbers); 
+ 
+     console.log(maximum);//max = (5)
+     console.log(minmum); // min = (1)
+ //console.log(numbers);
+
+ 
 
 
 

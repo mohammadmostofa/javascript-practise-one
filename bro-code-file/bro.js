@@ -845,13 +845,55 @@
 
 //sort email function
 
-function isValidEmail(email){
+// function isValidEmail(email){
 
-  return email.includes('@gmail')  ? true : false;
-}
+//   return email.includes('@gmail')  ? true : false;
+// }
 
-console.log(isValidEmail('mostofa.com'))
-console.log(isValidEmail('mostofa@gmail.com'))
+// console.log(isValidEmail('mostofa.com'))
+// console.log(isValidEmail('mostofa@gmail.com'))
+
+
+
+// variable scope = where a variable is recognized 
+
+//                  and accessible (local or global)
+
+//একটা ভেরিয়েবল কোথায় থেকে “চেনা যায়” (recognized)
+//  এবং কোথায় থেকে “ব্যবহার করা যায়” (accessible) —
+//এই ধারণাটাকেই বলে Scope (স্কোপ)
+
+//global variable..jeta deha jai sohojeai
+ let x = 1; //x global variable 
+
+
+ // ekta function er bitor ki ase onno function ta jane na
+ // tai binno function ye variable name ekoi takle kuno problem hobe na
+ // function er sob kaj kore function name call er maddo me
+
+
+ function localVariabe (){
+  let x = 1; // x is a localvariable 
+  console.log(x);
+ }
+
+ localVariabe(x);
+
+ function localVariabe1 (){
+  let x = 10; // x is a localvariable 
+  console.log(x);
+ }
+
+ localVariabe1(x);
+
+ // function guloke ekekta gor ba bari bola jai.
+ //karon gorer bitore ki ase sudu gorer malik jane
+ //  malik jokon call  ba bolbe tokon gor somporke jana jai
+ //alada alada gore ekoi doroner jinis takteai pare tate kuno problem hobe na
+ //
+
+
+
 
 
 

@@ -1011,14 +1011,34 @@ function2();
 
    //for loop + array and biyog(-)
 
-   let color = ['red','yello', 'orange', 'green','blue']
+   //let color = ['red','yello', 'orange', 'green','blue']
 
-   for( let i = color.length - 1;  i >= 0; i--){
-    console.log(i);//4,3,2,1,0
-    console.log(color[i]); //result show --right to left or ulta to baow
-   }
+   //for( let i = color.length - 1;  i >= 0; i--){
+   // console.log(i);//4,3,2,1,0
+   // console.log(color[i]); //result show --right to left or ulta to baow
+  // }
+
+// for......of  its a simple formula to out list of array element
 
 
+let colors = ['red','yello', 'orange', 'green','blue']
+
+for( let color of colors){
+
+  console.log(color)
+
+}
+
+//reverse () = ultano
+//sort() → অক্ষর অনুযায়ী (alphabetically) সাজায়
+
+//sort() >   ['blue', 'green', 'orange', 'red', 'yello']; chatcpt
+
+//reverse() → সাজানো list উল্টে 
+
+ colors.sort().reverse();
+ console.log(colors);
+ //['yello', 'red', 'orange', 'green', 'blue'] result 
 
 
 

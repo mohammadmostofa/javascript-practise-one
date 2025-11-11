@@ -769,9 +769,30 @@
 
 
 
+function substrict (x,y){
+  let result = x - y;
+  return result;
+}
+
+ console.log(substrict(10, 5));
 
 
 
+ function multiple (x , y){
+   let result = x * y;
+   return result;
+ }
+
+console.log(multiple (4,4));
+
+
+
+function division (x, y){
+  let result = x / y;
+  return result; 
+}
+
+console.log(division(10,5))
 
 
 

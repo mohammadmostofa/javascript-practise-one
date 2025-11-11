@@ -982,18 +982,31 @@ function2();
 
    //Length(total element),indexOf(element position),
 
-   let fruitNames = ['kola','jambura', 'komla','apel']
-   console.log(fruitNames);
-   console.log(fruitNames.length); //4
+//let fruitNames = ['kola','jambura', 'komla','apel']
+   //console.log(fruitNames);
+  // console.log(fruitNames.length); //4
      
    //indexOf() 
-      let myFavourite = fruitNames.indexOf( 'jambura' );// jodi indexOf er bitorer name ti
+    //  let myFavourite = fruitNames.indexOf( 'jambura' );// jodi indexOf er bitorer name ti
       //                                             arrey er bitore na take tahole -1 hobe
-      console.log(myFavourite);
-
-      
+     // console.log(myFavourite);
 
 
+
+// Array with for Loop 
+
+let fruitsName = ['apple','banana','orange','cucumber','papaya','lychee']
+
+   console.log(fruitsName);
+
+   for (let i = 0 ; i < fruitsName.length; i++){
+
+    console.log(i); // number count korbe jotokkon sorto puron hosche
+    console.log(fruitsName[i]); //0,1,2,3,4,5 babe count korbe kintu eketre 
+    //                          fruitsName er bitorer gulo single babe bosbe
+    //                           karon = fruitsName[i] count korte bola hoyeche
+
+   }
 
 
 

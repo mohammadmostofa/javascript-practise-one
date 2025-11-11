@@ -117,7 +117,7 @@ let count = 0;
     
 
 
-    // MY CHECKED PROPERTY
+    // MY CHECKED PROPERTY  
     //.checked (☐ >✅)= property that determines the checked state of an HTML checkbox 
     //or radia button element. 
 
@@ -178,6 +178,39 @@ let count = 0;
 
 
 
+    //  TEMPARTURE CONVERSION........😤..........>🤯
 
-
+  
+    const TextBox = document.getElementById(`TextBox`);
+    const toFahrenheit = document.getElementById(`toFahrenheit`);
+    const toCelsius = document.getElementById(`toCelsius`);
      
+    // result 
+    const result = document.getElementById(`result`);
+
+    let temp;
+    
+    function convert (){
+      
+      if( toFahrenheit.checked){
+
+           temp = Number(TextBox.value);
+           temp = (temp * 9 / 5) + 32;//c to f math system
+           result.textContent = temp.toFixed(1) + '°F' ; //.toFixed diye dosomik er pore 1gor hobe fixe kora hoyese
+
+      }
+
+      else if(toCelsius.checked){
+
+        temp = Number(TextBox.value);
+        temp = (temp - 32) * (5/9); //f to c math system
+        result.textContent = temp.toFixed(1) + '°C';
+
+      }
+
+      else{
+        result.textContent = 'Select a Unit'
+      }
+
+    }
+

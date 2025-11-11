@@ -814,12 +814,47 @@
 
 //to convert easy
 
-function isEven(number){
+// function isEven(number){
 
-  return number % 2 === 0 ? true : false;
+//   return number % 2 === 0 ? true : false;
 
+// }
+// console.log(isEven(10));
+
+
+
+// email valid function
+
+
+// function isValidEmail (email){
+
+//   if( email.includes('@gmail.') ){
+//     return true;
+//   }
+
+//   else{
+//     return false;
+//   }
+
+// }
+
+// console.log(isValidEmail('mohammadmostofa.com'))
+// console.log(isValidEmail('mohammadmostofa@gmail.com'))
+
+
+
+//sort email function
+
+function isValidEmail(email){
+
+  return email.includes('@gmail')  ? true : false;
 }
-console.log(isEven(10));
+
+console.log(isValidEmail('mostofa.com'))
+console.log(isValidEmail('mostofa@gmail.com'))
+
+
+
 
 
 

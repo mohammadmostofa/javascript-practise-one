@@ -769,30 +769,58 @@
 
 
 
-function substrict (x,y){
-  let result = x - y;
-  return result;
+// function substrict (x,y){
+//   let result = x - y;
+//   return result;
+// }
+
+//  console.log(substrict(10, 5));
+
+
+
+//  function multiple (x , y){
+//    let result = x * y;
+//    return result;
+//  }
+
+// console.log(multiple (4,4));
+
+
+
+// function division (x, y){
+//   let result = x / y;
+//   return result; 
+// }
+
+// console.log(division(10,5))
+
+
+//function isEven number mathod
+
+// function isEven (number){
+
+// if (number % 2 === 0)//এটা modulus operator, মানে এটা ভাগশেষ (remainder) বের করে।
+//   {
+//   return true;
+// }
+// else{
+//   return false
+// }
+
+// }
+
+// console.log(isEven(10));
+
+
+//to convert easy
+
+function isEven(number){
+
+  return number % 2 === 0 ? true : false;
+
 }
+console.log(isEven(10));
 
- console.log(substrict(10, 5));
-
-
-
- function multiple (x , y){
-   let result = x * y;
-   return result;
- }
-
-console.log(multiple (4,4));
-
-
-
-function division (x, y){
-  let result = x / y;
-  return result; 
-}
-
-console.log(division(10,5))
 
 
 

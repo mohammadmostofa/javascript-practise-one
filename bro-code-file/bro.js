@@ -933,6 +933,44 @@ console.log(fruits[1]); //index 1 = mango
 console.log(fruits[2]); //index 0 = banana
 
 
+ //math one of Array
+
+ //kibabe ami element change korbo abr aitar poriborte arrekta add korbo
+
+ let names = ['korim', 'rohim', 'jobbar', 'oporupa']
+
+ // names [0] = 'Jolil khan';// 0 er poriborte 1,2,3,4 bosale seai gor dokol korbe
+ // console.log(names[0]);//see result
+
+  console.log(names);
+  console.log(names[0]);
+  console.log(names[1]);
+  console.log(names[2]);
+  console.log(names[3]);
+
+  //Push() = notun element add kora pison dik diye
+
+  names.push('halim')
+  names.push('balim', 'salim')
+  names.push('halim', 'molim', 'kalim', 'talim', 'charim')
+  console.log(names);//see all element 
+
+  //pop = add kora element ke remove kora 
+
+  names.pop(); //aibabe pop() likte hobe jotota picon teke romve korte chao totobar
+  names.pop();
+  names.pop();
+  names.pop();//total 4ta pop deoyar 4ta name remove hoice picon dik teke
+
+  console.log(names)
+
+
+
+
+
+
+
+
 
 
    

@@ -877,20 +877,45 @@
   console.log(x);
  }
 
- localVariabe(x);
+ //localVariabe(x);
 
  function localVariabe1 (){
   let x = 10; // x is a localvariable 
   console.log(x);
  }
 
- localVariabe1(x);
+ //localVariabe1(x);
 
  // function guloke ekekta gor ba bari bola jai.
  //karon gorer bitore ki ase sudu gorer malik jane
  //  malik jokon call  ba bolbe tokon gor somporke jana jai
  //alada alada gore ekoi doroner jinis takteai pare tate kuno problem hobe na
- //
+ 
+
+ //external variable selelcted
+
+//jodi function yer  bitorer ongshe varible na neoya hoi
+//  bahirteke varible select korle pottekta function bahirer variable ke 
+// tar bitorer varible hisebe nibe o kaj korbe
+// a current er motho bableo hobe
+//potekta gorer malik nirdisto ekta bahirer songjuger maddome current nij nij 
+// gore suply kore
+
+
+let m = 3;
+
+function function1(){
+console.log(m)
+}
+//call function 1
+function1();
+
+function function2(){
+console.log(m)
+}
+//call function 2
+function2();
+
 
 
 

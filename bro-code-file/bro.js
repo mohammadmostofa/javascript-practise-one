@@ -967,16 +967,35 @@ function2();
 
   //.unshift() =  mane holo samon tete element add kora
   
-  let students = ['mostofa', 'golam Mostofa', 'jubayed','mondol']//4
+  //let students = ['mostofa', 'golam Mostofa', 'jubayed','mondol']//4
   
-    students.unshift('korim','rohim', 'joinal');//4+3 = 7 names
-  console.log(students);
+  //  students.unshift('korim','rohim', 'joinal');//4+3 = 7 names
+ // console.log(students);
 
   //shift() = samner dik teke remove kora 
 
-     students.shift();
-     students.shift();//remove 2 names
-     console.log(students);
+   //  students.shift();
+   //  students.shift();//remove 2 names
+   //  console.log(students);
+
+
+
+   //Length(total element),indexOf(element position),
+
+   let fruitNames = ['kola','jambura', 'komla','apel']
+   console.log(fruitNames);
+   console.log(fruitNames.length); //4
+     
+   //indexOf() 
+      let myFavourite = fruitNames.indexOf( 'jambura' );// jodi indexOf er bitorer name ti
+      //                                             arrey er bitore na take tahole -1 hobe
+      console.log(myFavourite);
+
+      
+
+
+
+
 
 
 

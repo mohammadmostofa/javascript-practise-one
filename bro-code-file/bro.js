@@ -732,26 +732,42 @@
   // function math-two
 
 
-  function myBirthDay ( userName, age)//username,age is parameter 
+  // function myBirthDay ( userName, age)//username,age is parameter 
   
-  {
+  // {
 
-    console.log(`Happy birthday ${userName}!`);
-    console.log(`you are ${age} year old!`);
+  //   console.log(`Happy birthday ${userName}!`);
+  //   console.log(`you are ${age} year old!`);
   
-  }
+  // }
 
   //call the function
 
 //ekoi variable name e jotobar ami value nibo totho bar ta sho korbe
 
-  myBirthDay( 'Golam Mostofa', 24 );//parameter value
+  // myBirthDay( 'Golam Mostofa', 24 );//parameter value
   
-  myBirthDay('sojib', 23);
+  // myBirthDay('sojib', 23);
 
-  myBirthDay('mustakim', 22);
+  // myBirthDay('mustakim', 22);
 
-  myBirthDay('sopon', 24);
+  // myBirthDay('sopon', 24);
+
+
+
+  // function math-03
+
+//   function add(x, y){
+//     let result = x + y ;
+//     return result;
+//   }
+
+//  console.log(add(5,5)); //process one
+
+//  let ans = add(3,6);//process two
+//  console.log(ans);
+
+
 
 
 

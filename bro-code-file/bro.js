@@ -902,19 +902,45 @@
 // gore suply kore
 
 
-let m = 3;
+//let m = 3;
 
 function function1(){
-console.log(m)
+//console.log(m)
 }
 //call function 1
 function1();
 
 function function2(){
-console.log(m)
+//console.log(m)
 }
 //call function 2
 function2();
+
+
+
+//Array = a variable like structure that can hold more than 1 value.
+//মানে, এটা এমন একটা structure (গঠন) যেটা একটা variable-এর মতো কাজ করে,
+//  কিন্তু একটার বেশি মান (value) ধরে রাখতে পারে।
+
+//example
+
+let fruits = ['apple', 'mango', 'banana',]
+//console.log(fruits);
+
+//ami jodi potektar position jante chai tahole 
+console.log(fruits[0]); //index 0 = apple
+console.log(fruits[1]); //index 1 = mango
+console.log(fruits[2]); //index 0 = banana
+
+
+
+
+   
+
+
+
+
+
 
 
 

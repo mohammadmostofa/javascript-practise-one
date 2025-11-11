@@ -924,45 +924,62 @@ function2();
 
 //example
 
-let fruits = ['apple', 'mango', 'banana',]
+//let fruits = ['apple', 'mango', 'banana',]
 //console.log(fruits);
 
 //ami jodi potektar position jante chai tahole 
-console.log(fruits[0]); //index 0 = apple
-console.log(fruits[1]); //index 1 = mango
-console.log(fruits[2]); //index 0 = banana
+//console.log(fruits[0]); //index 0 = apple
+//console.log(fruits[1]); //index 1 = mango
+//console.log(fruits[2]); //index 0 = banana
 
 
  //math one of Array
 
  //kibabe ami element change korbo abr aitar poriborte arrekta add korbo
 
- let names = ['korim', 'rohim', 'jobbar', 'oporupa']
+ //let names = ['korim', 'rohim', 'jobbar', 'oporupa']
 
  // names [0] = 'Jolil khan';// 0 er poriborte 1,2,3,4 bosale seai gor dokol korbe
  // console.log(names[0]);//see result
 
-  console.log(names);
-  console.log(names[0]);
-  console.log(names[1]);
-  console.log(names[2]);
-  console.log(names[3]);
+  //console.log(names);
+  //console.log(names[0]);
+  //console.log(names[1]);
+  //console.log(names[2]);
+  //console.log(names[3]);
 
   //Push() = notun element add kora pison dik diye
 
-  names.push('halim')
-  names.push('balim', 'salim')
-  names.push('halim', 'molim', 'kalim', 'talim', 'charim')
-  console.log(names);//see all element 
+  //names.push('halim')
+  //names.push('balim', 'salim')
+  //names.push('halim', 'molim', 'kalim', 'talim', 'charim')
+  //console.log(names);//see all element 
 
   //pop = add kora element ke remove kora 
 
-  names.pop(); //aibabe pop() likte hobe jotota picon teke romve korte chao totobar
-  names.pop();
-  names.pop();
-  names.pop();//total 4ta pop deoyar 4ta name remove hoice picon dik teke
+  //names.pop(); //aibabe pop() likte hobe jotota picon teke romve korte chao totobar
+  //names.pop();
+  //names.pop();
+  //names.pop();//total 4ta pop deoyar 4ta name remove hoice picon dik teke
 
-  console.log(names)
+  //console.log(names)
+
+
+  //.unshift() =  mane holo samon tete element add kora
+  
+  let students = ['mostofa', 'golam Mostofa', 'jubayed','mondol']//4
+  
+    students.unshift('korim','rohim', 'joinal');//4+3 = 7 names
+  console.log(students);
+
+  //shift() = samner dik teke remove kora 
+
+     students.shift();
+     students.shift();//remove 2 names
+     console.log(students);
+
+
+
 
 
 

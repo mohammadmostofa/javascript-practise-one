@@ -1119,18 +1119,36 @@ function2();
 
 // rest math -02
 //nicher ... holo rest operator;
-function sum(...numbers){
-  let result = 0;//result is a variable name
+//function sum(...numbers){
+  // result = 0;//result is a variable name
   //for..of loop
-  for (let number of numbers)//numbers tke number ye jabe
-  {
-      result += number; //potekkta number result= 0... 0 er sate juk hobe = ans
-  }
-  return result;//folafol aike asbe
-}
+ // for (let number of numbers)//numbers tke number ye jabe
+ // {
+    //  result += number; //potekkta number result= 0... 0 er sate juk hobe = ans
+ // }
+  //return result;//folafol aike asbe
+//}
   //const total = sum(1)//aikane jotogulo number dibo tar jug hobe
-  const total = sum(1,2,3,4,5,6,);//21 
-  console.log(`your total is ${total}`);//output
+ // const total = sum(1,2,3,4,5,6,);//21 
+ // console.log(`your total is ${total}`);//output
+
+
+ //get Average number out bye rest operator
+
+ function getAverage(...numbers){
+  let result = 0;
+
+  for(let number of numbers){
+     result += number;
+  }
+  return result / numbers.length;
+ }
+
+ const total = getAverage(11,222,33,44,55,66,77,34,5,6,77,88);
+ console.log(total); // 59.833333333333336
+
+
+
 
 
 

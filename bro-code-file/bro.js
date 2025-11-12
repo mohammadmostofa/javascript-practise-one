@@ -1051,19 +1051,33 @@ function2();
 
  //example
 
- let numbers = [1,2,3,4,5];
+ //let numbers = [1,2,3,4,5];
 
- let maximum = Math.max(numbers);//aikane kintu max number dekaini
-     maximum = Math.max(...numbers);//spread operator use korai kintu 
+ //let maximum = Math.max(numbers);//aikane kintu max number dekaini
+    // maximum = Math.max(...numbers);//spread operator use korai kintu 
      //                                max numbers ti asche output ye 
-let minmum = Math.min(...numbers); 
+//let minmum = Math.min(...numbers); 
  
-     console.log(maximum);//max = (5)
-     console.log(minmum); // min = (1)
+    // console.log(maximum);//max = (5)
+    // console.log(minmum); // min = (1)
  //console.log(numbers);
 
- 
 
+//  ekta sobdo ke alada alada letter ye poriborto spread operator diye
+//join('') jukto kora--- any thing
+
+let userName = "Golam Mostofa"
+
+let letter = [...userName].join("-");
+console.log(letter);
+
+
+// kibabe odik element add korbo spread operator diye;
+
+let colorss = ['lal', 'nil', 'sobuj']
+ let vagetable =['holud', 'beguni', 'tometu', 'peyara']
+  let all = [...colorss,...vagetable, 'hala', 'vala','kala']//spread (...) oprator
+  console.log(all); 
 
 
 

@@ -214,3 +214,36 @@ let count = 0;
 
     }
 
+
+
+
+
+
+
+    // LUDU GAME js
+
+    function rollDice(){
+     const numOfDice = document.getElementById(`numOfDice`).value;
+     const diseResult = document.getElementById(`diseResult`);
+     let diseImages = document.getElementById(`diseImages`);
+
+     //variable ...values,images...er jonno
+
+     const values = [];
+     const images = [];
+
+    //  for loop ...1 to 6 random number er jonno
+
+    for( let i = 0; i < numOfDice; i++){
+      const value = Math.floor(Math.random() * 6) + 1;
+      values.push(value);
+      images.push(`<img src="img_folder/${value}.png" alt="mostofa" ${value} >`);
+
+    }
+
+    diseResult.textContent =  `Dice: ${values.join(`, `)}`;
+   
+     diseImages.innerHTML = images.join(` `);
+
+
+  }

@@ -1135,17 +1135,29 @@ function2();
 
  //get Average number out bye rest operator
 
- function getAverage(...numbers){
-  let result = 0;
+//  function getAverage(...numbers){
+//   let result = 0;
 
-  for(let number of numbers){
-     result += number;
-  }
-  return result / numbers.length;
- }
+//   for(let number of numbers){
+//      result += number;
+//   }
+//   return result / numbers.length;
+//  }
 
- const total = getAverage(11,222,33,44,55,66,77,34,5,6,77,88);
- console.log(total); // 59.833333333333336
+//  const total = getAverage(11,222,33,44,55,66,77,34,5,6,77,88);
+ //console.log(total); // 59.833333333333336
+
+
+//  combine string
+
+function combineStrings(...Strings){
+
+  return Strings.join(" ");
+
+}
+
+let fullName = combineStrings ("mohammad", "mostofa", "kamal");
+console.log(fullName);
 
 
 

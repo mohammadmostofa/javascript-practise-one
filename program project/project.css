@@ -203,3 +203,66 @@ border: 2px solid black;
   font-weight: bold;
 
  }
+
+
+
+  /* LUDU GAME  CSS */
+
+  #DiceContainer{
+    font-family: sans-serif;
+    margin: 100px auto;
+    padding: 50px ;
+    border: 1px solid black;
+    font-size: 2rem; 
+    font-weight: bold;
+    align-items: center;
+    background-color: #95e0f3;
+  }
+
+  #DiceContainer h1{
+    text-align: center;
+  }
+
+  #DiceContainer button{
+    font-size: 1.5rem;
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: none;
+    background-color: #2c9300;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+
+  }
+
+  #DiceContainer button:hover{
+    background-color: #00672e;
+  }
+
+  #DiceContainer button:active{
+    background-color: #027938;
+  }
+
+ #DiceContainer input{
+  font-size: 2rem;
+  width: 150px;
+  text-align: center;
+  font-weight: bold;
+ }
+
+
+ #diseResult{
+  justify-content: center;
+  text-align: center;
+  margin: 10px;
+ }
+
+ #diseImages{
+  justify-content: center;
+  text-align: center;
+
+ }
+
+ #diseImages img{
+  margin: 10px;
+ }

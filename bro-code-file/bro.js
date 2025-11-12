@@ -1096,26 +1096,41 @@ function2();
 //(...rest)
 
 
-function openFrize(...foods){
- console.log(foods)//array 
+// function openFrize(...foods){
+//  console.log(foods)//array 
+//  console.log(...foods);
 
+// }
+// function getFood(...foods){
+//   return foods;
+// }
+
+// let food1 = 'apple';
+// let food2 = 'lichhu';
+// let food3 = 'orange';
+// let food4 = 'papeya';
+// let food5 = 'mango';
+// let food6 = 'pinaapple';    
+
+
+// openFrize(food1, food2, food3, food4,food5,food6);
+
+// console.log(getFood (food1, food2, food3, food4,food5,food6));
+
+// rest math -02
+//nicher ... holo rest operator;
+function sum(...numbers){
+  let result = 0;//result is a variable name
+  //for..of loop
+  for (let number of numbers)//numbers tke number ye jabe
+  {
+      result += number; //potekkta number result= 0... 0 er sate juk hobe = ans
+  }
+  return result;//folafol aike asbe
 }
-function getFood(...foods){
-  return foods;
-}
-
-let food1 = 'apple';
-let food2 = 'lichhu';
-let food3 = 'orange';
-let food4 = 'papeya';
-let food5 = 'mango';
-let food6 = 'pinaapple';    
-
-
-openFrize(food1, food2, food3, food4,food5,food6);
-
-console.log(getFood (food1, food2, food3, food4,food5,food6));
-  
+  //const total = sum(1)//aikane jotogulo number dibo tar jug hobe
+  const total = sum(1,2,3,4,5,6,);//21 
+  console.log(`your total is ${total}`);//output
 
 
 

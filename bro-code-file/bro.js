@@ -1066,18 +1066,57 @@ function2();
 //  ekta sobdo ke alada alada letter ye poriborto spread operator diye
 //join('') jukto kora--- any thing
 
-let userName = "Golam Mostofa"
+//let userName = "Golam Mostofa"
 
-let letter = [...userName].join("-");
-console.log(letter);
+//et letter = [...userName].join("-");
+//console.log(letter);
 
 
 // kibabe odik element add korbo spread operator diye;
 
-let colorss = ['lal', 'nil', 'sobuj']
- let vagetable =['holud', 'beguni', 'tometu', 'peyara']
-  let all = [...colorss,...vagetable, 'hala', 'vala','kala']//spread (...) oprator
-  console.log(all); 
+//let colorss = ['lal', 'nil', 'sobuj']
+ //let vagetable =['holud', 'beguni', 'tometu', 'peyara']
+  //let all = [...colorss,...vagetable, 'hala', 'vala','kala']//spread (...) oprator
+  //console.log(all); 
+
+
+
+  //spread = expands an array into separator  element
+  //একটা array-এর সব উপাদানকে আলাদা আলাদা করে খুলে ফেলা। 
+
+  //rest   = bundle / Combine separate element  into an array
+  //মানে হচ্ছে বিভিন্ন আলাদা element গুলোকে একসাথে করে একটা array বানানো।
+
+  //Rest perameter = (...rest) allow a function work with   a variable number
+  //                 of argumentsm by bundling them into an array .
+
+
+// element gulo function er bahire rakte hobe
+//variable বাইরে declare করে পাঠাও, অথবা ভেতরেই সব রাখো।
+//(...rest)
+
+
+function openFrize(...foods){
+ console.log(foods)//array 
+
+}
+function getFood(...foods){
+  return foods;
+}
+
+let food1 = 'apple';
+let food2 = 'lichhu';
+let food3 = 'orange';
+let food4 = 'papeya';
+let food5 = 'mango';
+let food6 = 'pinaapple';    
+
+
+openFrize(food1, food2, food3, food4,food5,food6);
+
+console.log(getFood (food1, food2, food3, food4,food5,food6));
+  
+
 
 
 

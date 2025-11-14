@@ -1167,65 +1167,138 @@ function2();
 // RANDOM PASSWORD GENERATION
 
 
-function generatePassword (
+// function generatePassword (
 
- length, incluLowerCase,incluUpperCase,incluNumber,incluSymbals
-        )
+//  length, incluLowerCase,incluUpperCase,incluNumber,incluSymbals
+//         )
 
-{
+// {
 
-  const lowerLetter = 'abcdefghijklmnopqrstuvwxyz';
-  const upperLetter = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
-  const number      = 1234567890;
-  const symbel      = '!@#$%^&*()"/><.,-+ ``=';
+//   const lowerLetter = 'abcdefghijklmnopqrstuvwxyz';
+//   const upperLetter = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+//   const number      = 1234567890;
+//   const symbel      = '!@#$%^&*()"/><.,-+ ``=';
  
-  let allowed  = "";
-  let password = "";
+//   let allowed  = "";
+//   let password = "";
 
-       allowed += incluLowerCase ? lowerLetter: "";
-       allowed += incluUpperCase ? upperLetter: "";
-       allowed += incluNumber    ? number: "";
-       allowed += incluSymbals   ? symbel: "";
+//        allowed += incluLowerCase ? lowerLetter: "";
+//        allowed += incluUpperCase ? upperLetter: "";
+//        allowed += incluNumber    ? number: "";
+//        allowed += incluSymbals   ? symbel: "";
 
     
 
-   if(length <= 0){
-    return `(password Length must be at least 1)`;
-   }
+//    if(length <= 0){
+//     return `(password Length must be at least 1)`;
+//    }
 
-   if( allowed.length === 0){
+//    if( allowed.length === 0){
     
-    return `At the 1 set of character needs to be selecter!`
+//     return `At the 1 set of character needs to be selecter!`
 
-   }
+//    }
 
-   for( let i = 0; i < length; i++){
-    const randomIndex =  Math.floor(Math.random() * allowed.length) ;
-      password += allowed[randomIndex];
-   }
+//    for( let i = 0; i < length; i++){
+//     const randomIndex =  Math.floor(Math.random() * allowed.length) ;
+//       password += allowed[randomIndex];
+//    }
 
    
-  return password;
+//   return password;
+
+// }
+
+// const passwordLenght = 12;
+// const incluLowerCase = true;
+// const incluUpperCase = true;
+// const incluNumber    = true;
+// const incluSymbals   = true;
+
+// const password = generatePassword(
+  
+//                                  passwordLenght,
+//                                  incluLowerCase,
+//                                  incluUpperCase,
+//                                  incluNumber,
+//                                  incluSymbals
+
+//                                  );
+
+// console.log(`Generate Password: ${password} `);       
+
+
+
+// function 
+
+//Callback Function = A function that is passed as an argument to anther function
+//                    (1) Reading a File (more)
+//                    (2)Network request
+//                    (3)Interactiong with Database
+
+//Callback = যাকে আরেকটা function এর ভিতরে ডেকে চালানো হয়।
+
+//Arrow Function      (
+//                     
+//                     let hello = () => {
+//                     console.log("Hello Dust");
+//        };
+
+//                    )
+
+
+//  কখন বেশি ব্যবহার হয় ? 
+//✔ Callback এ
+//✔ setTimeout এ
+//✔ array methods (map, filter, reduce)
+//✔ ছোট function লেখার সময়
+
+//  Example           " Hey,when you are done, call this next. "  
+
+
+
+// ⭐ Summary Table (এক নজরে)
+// Concept	কাজ
+// Callback--------	Function ভিতরে function কল
+// Asynchronous---------	Delay/Background কাজ
+// setTimeout---------	একবার delay দিয়ে চালানো
+// setInterval-------------------	বারবার চালানো
+// Promise----------------	ভবিষ্যতে result দেবে
+// async/await----Promise কে সহজভাবে handle করা
+
+
+//math-01
+
+function hello (){
+  console.log('Hello!');
+  setTimeout( function (){
+    console.log('Hello Dust!');
+  }, 3000 );
+
 
 }
+hello();
 
-const passwordLenght = 12;
-const incluLowerCase = true;
-const incluUpperCase = true;
-const incluNumber    = true;
-const incluSymbals   = true;
 
-const password = generatePassword(
+
   
-                                 passwordLenght,
-                                 incluLowerCase,
-                                 incluUpperCase,
-                                 incluNumber,
-                                 incluSymbals
+// math-02
 
-                                 );
+ 
 
-console.log(`Generate Password: ${password} `);                                 
+function hello (Callback){
+  console.log("hello");
+   Callback();
+}
+
+function goodByer (){
+  console.log('i back the call');
+}
+
+hello(goodByer);
+
+
+
 
 
 

@@ -1269,15 +1269,15 @@ function2();
 
 //math-01
 
-function hello (){
-  console.log('Hello!');
-  setTimeout( function (){
-    console.log('Hello Dust!');
-  }, 3000 );
+// function hello (){
+//   console.log('Hello!');
+//   setTimeout( function (){
+//     console.log('Hello Dust!');
+//   }, 3000 );
 
 
-}
-hello();
+// }
+// hello();
 
 
 
@@ -1286,17 +1286,34 @@ hello();
 
  
 
-function hello (Callback){
-  console.log("hello");
-   Callback();
+// function hello (Callback){
+//   console.log("hello");
+//    Callback();
+// }
+
+// function goodByer (){
+//   console.log('i back the call');
+// }
+
+// hello(goodByer); //hello er bitore function likte er tar bor arrekta asbe
+
+
+//math-3
+
+function Hello (Callback){
+  console.log('Hello')
+  Callback();
 }
 
-function goodByer (){
-  console.log('i back the call');
+function Wait (){
+   console.log('Wait...');
+  setTimeout( function (){
+    console.log('Wait.....')
+  },3000 );
 }
 
-hello(goodByer);
 
+Hello(Wait);
 
 
 

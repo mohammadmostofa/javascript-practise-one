@@ -1300,23 +1300,41 @@ function2();
 
 //math-3
 
-function Hello (Callback){
-  console.log('Hello')
-  Callback();
+// function Hello (Callback){
+//   console.log('Hello')
+//   Callback();
+// }
+
+// function Wait (){
+//    console.log('Wait...');
+//   setTimeout( function (){
+//     console.log('Wait.....')
+//   },3000 );
+// }
+
+
+// Hello(Wait);
+
+
+// math -04
+
+// callback function connect with html file remembered
+
+
+
+
+function sum (Callback,x,y){
+  let  result = x + y;
+  Callback(result);
 }
 
-function Wait (){
-   console.log('Wait...');
-  setTimeout( function (){
-    console.log('Wait.....')
-  },3000 );
-}
+
+function displayPage (result){
+  document.getElementById(`textH1`).textContent = result ;
+};
 
 
-Hello(Wait);
-
-
-
+sum(displayPage, 1, 2);// x=1 , y=2 deoya hoyeche! 
 
 
  
